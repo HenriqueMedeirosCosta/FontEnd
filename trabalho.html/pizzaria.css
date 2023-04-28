@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:10;
+    padding: 20;
+    }
+    
+    h1, h2, p {
+    margin:0;
+    padding: 0;
+    }
+    
+    img {
+    display: block;
+    margin: 10px auto;
+    }
+    
+    /* Estilos do cabeçalho */
+    header {
+    background-color: #e5d710f9;
+    height: 60px;
+    padding: 40px;
+    }
+    
+    /* Estilos do título */
+    h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+    }
+    
+    /* Estilos do subtitulo */
+    p {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 10px;
+    }
+    
+    /* Estilos do cardápio */
+    h2 {
+    font-size: 40px;
+    margin-top: 60px;
+text-align: center;
+    }
+    
+    /* Estilos dos itens do cardápio */
+    p:first-child {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+    }
+    
+    p:not(:first-child) {
+    font-size: 20px;
+    margin-top: 10px;
+    }
+    
+    /* Estilos das imagens dos itens do cardápio */
+    img {
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    /* Estilos das pizzas doces */
+    h2 {
+    margin-top: 30px;
+    }
+    
+    /* Estilos do rodapé */
+    footer {
+    background-color: #eef104;
+    height: 70px;
+    padding: 60px;
+    position: girar;
+    bottom:20;
+    left: 0;
+    right: 0;
+    }
+    
+    /* Estilos do texto no rodapé */
+    footer p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20PX;
+    }
