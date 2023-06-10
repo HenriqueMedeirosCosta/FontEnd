@@ -1,0 +1,101 @@
+/* aula12-05.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #aba7a7;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  img {
+    margin: 10px 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section:last-child {
+    margin-bottom: 0;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .product {
+    flex-basis: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .product img {
+    margin-bottom: 10px;
+  }
+  
+  .product p {
+    margin-bottom: 5px;
+  }
+  
+  .product h4 {
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product span {
+    color: #000000;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
